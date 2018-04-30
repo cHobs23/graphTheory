@@ -7,6 +7,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        try(BufferedReader br = new BufferedReader(new FileReader(args[0])){
+
+                String line;
+                while((line =br.readline())!=null)
+            {
+
+
+
+                
+            }
+
+
+
+        }
+
         Graph g = new Graph(12);
         g.addEdge(0,1);
         g.addEdge(1,0);
