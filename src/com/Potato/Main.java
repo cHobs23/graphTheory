@@ -2,16 +2,29 @@ package com.Potato;
 import java.io.*;
 import java.util.*;
 import java.util.LinkedList;
+import java.io.file;
+
 
 public class Main {
 
     public static void main(String[] args) {
+            String inputFile = args[0];
+            LinkedList LL = new LinkedList;
+
+        try(
+                Scanner sc = new Scanner(inputFile);
+                //BufferedReader br = new BufferedReader(new FileReader(args[0])){
+
+                double vCount = sc.nextDouble();
 
 
-        try(BufferedReader br = new BufferedReader(new FileReader(args[0])){
 
-                String line;
-                while((line =br.readline())!=null)
+                While(sc.hasNextInt()) {
+
+                LL.setValue(sc.nextInt(),sc.nextInt());
+
+        }
+
             {
 
 
